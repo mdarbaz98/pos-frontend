@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #1E1E1E;
+}
+
+.home_page{
+    .section_two{
+        .main_heading,.sub_heading{
+            color: #008080;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .main_heading{
+            font-family: Lora;
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 40px;
+
+        }
+        .sub_heading{
+            font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+        }
+
+        .Customer_review_carousel{
+            .card{
+                position: relative;
+                max-height: fit-content250px;
+                margin: 30px 0px;
+                background: #FFFFFF;
+box-shadow: 0px 18px 53px rgba(0, 0, 0, 0.05), 0px 6.5703px 19.3459px rgba(0, 0, 0, 0.0344991), 0px 3.18976px 9.39206px rgba(0, 0, 0, 0.0278145), 0px 1.56368px 4.60416px rgba(0, 0, 0, 0.0221855);
+                padding: 20px 30px 0px 30px;
+                .stars{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    i{
+                        color: 
+                        #008080;
+                    }
+                }
+                p,span{
+                    font-family: Open Sans;
+                    margin-bottom: 30px;
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+                }
+                span{
+                    font-size: 
+                    14px;
+                    margin: 0px auto 30px;
+                }
+                img{
+                    width: 45px;
+                    height: 45px;
+                    position: absolute;
+                    right: 40px;
+
+                    bottom: -20px;
+                }
+            }
+        }
+    }
+
+    .stats_section{
+        background: rgba(0, 128, 128, 0.1);
+border-radius: 14px;
+padding: 20px 15px;
+max-width: 898px;
+margin: 30px auto 60px;
+display: flex;
+justify-content: space-between;
+        .stat{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            p{
+                margin-bottom: 5px;
+                font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+            }
+            strong{
+                font-family: Open Sans;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .user_section{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        max-width: 800px;
+        .user{
+            padding: 28px 60px;
+            background: #FFFFFF;
+box-shadow: 0px 18px 53px rgba(0, 0, 0, 0.05), 0px 6.5703px 19.3459px rgba(0, 0, 0, 0.0344991), 0px 3.18976px 9.39206px rgba(0, 0, 0, 0.0278145), 0px 1.56368px 4.60416px rgba(0, 0, 0, 0.0221855);
+border-radius: 14px;
+position: relative;
+text-align: center;
+.icon{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 46px;
+    height: 46px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE2E2;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+            .part1{
+                font-family: Open Sans;
+                margin-bottom: 20px;
+                p{
+                    margin-bottom: 0px;
+                    color: 
+                    #4E4E4E;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                span{
+                    color: #969696;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
